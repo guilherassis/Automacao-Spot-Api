@@ -1,5 +1,5 @@
 
-describe "POST /sessions" do
+describe "POST /sessions", :smoke do
     
     # Para executar somente este context se utiliza o smoke
     # context 'when send email', :smoke  do
